@@ -1,0 +1,94 @@
+body {
+    text-align: center; 
+    margin: 0px;
+    padding-top: 700px;
+}
+.sec1{
+    position: absolute;
+    height: 700px;
+    background: linear-gradient(#00ff73 30%, #191970 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: table;
+z-index: 5;
+}
+img{
+    margin-top: 50px;
+    border-radius: 30%;
+    margin-bottom: 20px;
+height: 400px;
+
+}
+.sec2{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+p{
+    line-height: 30px;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+h1{
+    text-shadow: 2px 2px #f50743;
+font-size: 30px;
+}
+
+.line {
+    background-color: black;
+    height: 10px;
+    width: 70px;
+    margin: 20px auto;
+}
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 5px;
+    z-index: 10;
+    cursor: pointer;
+    text-align: center;
+    left: 500px;
+}
+
+.link {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+
+.link:hover {
+    background-color: #1d05f5;
+}
+.div1{
+position: relative;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;        
+}
+.line {
+    background-color: black;
+    height: 10px;
+    width: 70px;
+    margin: 20px auto;
+} 
+html{
+    scroll-behavior: smooth
+}
+
+#inspiration a{
+    font-size: 20px;
+}
+#section1 a{
+    font-size: 20px;
+}
